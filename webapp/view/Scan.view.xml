@@ -11,7 +11,7 @@
         title="{i18n>title}"
         showHeader="false">
         <content>
-            <VBox>
+            <VBox width="50%">
                  <FlexBox width="100%"
                 direction="Column"
                 height="100%"
