@@ -9,19 +9,15 @@
     controllerName="webapp.controller.Scan">
     <Page id="page"
         title="{i18n>title}"
-        showHeader="false">
+        showHeader="false" >
         <content>
-            <VBox>
-                 <FlexBox width="50%"
+            <VBox >
+                 <FlexBox width="100%"
                 direction="Column"
                 height="100%"
                 justifyContent="Center"
                 alignItems="Center">
-                <VBox alignContent="Center"
-                    alignItems="Center"
-                    gap="1rem">
-                  
-                </VBox>
+                
                 <f:Card class="sapUiMediumMarginTop"
                     visible="true"
                     headerPosition="Top">
@@ -71,7 +67,7 @@
                                     </VBox>
                                 </VBox>
                                 <Image src="{/form/foto/src}"
-                                    width="20rem"
+                                    width="10rem"
                                     height="auto"
                                     class="sapUiSmallMargin">
                                     <detailBox>
