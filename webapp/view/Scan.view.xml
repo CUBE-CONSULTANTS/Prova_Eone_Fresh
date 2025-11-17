@@ -11,8 +11,8 @@
         title="{i18n>title}"
         showHeader="false">
         <content>
-            <VBox width="50%">
-                 <FlexBox width="100%"
+            <VBox>
+                 <FlexBox width="50%"
                 direction="Column"
                 height="100%"
                 justifyContent="Center"
@@ -26,14 +26,15 @@
                     visible="true"
                     headerPosition="Top">
                     <f:header>
+                        
                         <card:Header iconSrc="sap-icon://shipping-status"
                             title="{i18n>consegna}: {/form/ddt}"
                             iconBackgroundColor="Accent6"
                             statusText="{i18n>data}: {/form/date}" />
                     </f:header>
                     <f:content>
-                        <FlexBox width="100%"
-                            direction="Row"
+                        <FlexBox width="50%"
+                            direction="Column"
                             height="100%"
                             justifyContent="Center"
                             alignItems="Start">
